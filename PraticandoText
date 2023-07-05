@@ -1,0 +1,8 @@
+print('praticando Phyton.')
+nome = input('Qual seu nome completo?')
+print('Seu nome em letras maiúsculas:', nome.upper())
+print('Seu nome em letras minúsculas:', nome.lower())
+FirstName = nome.split()
+QuantLetter = len(FirstName[0])
+print('A quantidade de letras em seu primeiro nome é de: {}'.format(QuantLetter))
+
